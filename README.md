@@ -21,6 +21,8 @@ streamlit run streamlit_app.py
 ```
 3. Generate image and click `Save Image` button. You will get "result.jpg" with face image and
    "result.txt" with five face landmarks.
+   
+![image](images/1.jpg)
 
 ## Generate 3d face model by Deep3DFaceReconstruction
 
@@ -36,6 +38,8 @@ python demo.py
 
 4. Move "result.obj" to root folder
 
+Result in Meshlab:
+![image](images/2.jpg)
 ## Generate dataset
 
 In file `rendering.py` set minimum, maximum and step degrees and run
@@ -44,3 +48,6 @@ pip install trimesh pyrender
 python rendering.py
 ```
 Here is `dataset` folder with results.
+
+Example:
+![image](images/3.jpg)
