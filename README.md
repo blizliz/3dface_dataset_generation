@@ -7,7 +7,7 @@ Includes three parts:
    [link](https://github.com/microsoft/Deep3DFaceReconstruction/)
 3. Put 3d face model and generate dataset of faces with different rotation angles
    [link](https://github.com/microsoft/Deep3DFaceReconstruction/)
-https://github.com/mmatl/pyrender
+
 # Getting started
 ## Generate 2d face image
 The part requires Python 3.6 or 3.7
