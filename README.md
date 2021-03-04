@@ -1,24 +1,25 @@
 # Generating dataset with 3d faces by attributes
-
----
 Includes three parts:
 
-1. Generate 2d face image on input attributes (age, smile, etc.) 
-2. Convert 2d face image to 3d face model
+1. Generate 2d face image on input attributes (age, smile, etc.).
+   [link](https://github.com/streamlit/demo-face-gan)
+2. Convert 2d face image to 3d face model.
+   [link](https://github.com/microsoft/Deep3DFaceReconstruction/)
 3. Put 3d face model and generate dataset of faces with different rotation angles
-
+   [link](https://github.com/microsoft/Deep3DFaceReconstruction/)
+https://github.com/mmatl/pyrender
 # Getting started
-
----
 ## Generate 2d face image
 The part requires Python 3.6 or 3.7
-1. Install requirements and run app
+1. Install dlib
+   
+2. Install requirements and run app
 ```
 cd face-gan
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
-2. Generate image and click OK button. You will get "result.jpg" with face image and
+3. Generate image and click `Save Image` button. You will get "result.jpg" with face image and
    "result.txt" with five face landmarks.
 
 ## Generate 3d face model by Deep3DFaceReconstruction
@@ -39,6 +40,7 @@ python demo.py
 
 In file `rendering.py` set minimum, maximum and step degrees and run
 ```
+pip install trimesh pyrender
 python rendering.py
 ```
 Here is `dataset` folder with results.

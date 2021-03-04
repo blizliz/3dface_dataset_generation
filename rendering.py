@@ -10,7 +10,7 @@ from pyrender import Node
 
 MIN_DEGREES = -0.6
 MAX_DEGREES = 0.6
-STEP_DEGREES = 0.1
+STEP_DEGREES = 0.2
 
 save_path = 'dataset'
 if not os.path.exists(save_path):
@@ -19,7 +19,7 @@ else:
     shutil.rmtree(save_path)
     os.makedirs(save_path)
 
-face_trimesh = trimesh.load('./result.obj')
+face_trimesh = trimesh.load('./result_mesh.obj')
 face_mesh = pyrender.Mesh.from_trimesh(face_trimesh)
 
 inx = 0
