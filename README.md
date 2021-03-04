@@ -1,9 +1,12 @@
 # Generating dataset with 3d faces by attributes
 Includes three parts:
 
-1. Generate 2d face image on input attributes (age, smile, etc.) 
-2. Convert 2d face image to 3d face model
+1. Generate 2d face image on input attributes (age, smile, etc.).
+   [link](https://github.com/streamlit/demo-face-gan)
+2. Convert 2d face image to 3d face model.
+   [link](https://github.com/microsoft/Deep3DFaceReconstruction/)
 3. Put 3d face model and generate dataset of faces with different rotation angles
+   [link](https://github.com/microsoft/Deep3DFaceReconstruction/)
 
 # Getting started
 ## Generate 2d face image
