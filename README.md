@@ -11,7 +11,7 @@ Includes three parts:
 # Getting started
 ## Generate 2d face image
 The part requires Python 3.6 or 3.7
-1. Install dlib
+1. Install [dlib](https://pypi.org/project/dlib/)
    
 2. Install requirements and run app
 ```
