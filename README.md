@@ -1,6 +1,4 @@
 # Generating dataset with 3d faces by attributes
-
----
 Includes three parts:
 
 1. Generate 2d face image on input attributes (age, smile, etc.) 
@@ -8,8 +6,6 @@ Includes three parts:
 3. Put 3d face model and generate dataset of faces with different rotation angles
 
 # Getting started
-
----
 ## Generate 2d face image
 The part requires Python 3.6 or 3.7
 1. Install requirements and run app
